@@ -1,0 +1,245 @@
+@font-face {
+    font-family: lobster;
+    src: url("./fonts/ttf/lobster/Lobster-Regular.ttf");
+}
+@font-face {
+    font-family: dynapuff;
+    src: url("./fonts/ttf/dynapuff/DynaPuff-Regular.ttf");
+}
+@font-face {
+    font-family: pacifico;
+    src: url("./fonts/ttf/pacifico/Pacifico-Regular.ttf");
+}
+@font-face {
+    font-family: oleoscriptswashcaps;
+    src: url("fonts/ttf/olesscriptswashcaps/OleoScriptSwashCaps-Regular.ttf");
+}
+@font-face {
+    font-family: albertsans;
+    src: url("fonts/ttf/albersans/AlbertSans-MediumItalic.ttf");
+}
+#color0{
+    text-align: center;
+    color: white;
+    width: 300px;
+    height: 300px;
+    background-image: linear-gradient(#f9d342 50%, #292826 50%);
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+#span0{
+    position: relative;
+    top: 140px;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+#color1{
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    color: #ec4d37;
+    font-weight: 900;
+    font-size: 44px;
+    background-color: #1d1b1b;
+    border-radius: 10px;
+    box-shadow: 3px 3px 9px #1d1b1b;
+}
+#span1{
+    position: relative;
+    top: 120px;
+}
+
+#color2{
+    margin-top: 20px;
+    text-align: center;
+    color: #f7f7f9;
+    width: 300px;
+    height: 300px;
+    background-color: #d2302c;
+    border-radius: 10px;
+}
+#span2{
+    position: relative;
+    top: 100px;
+    left: 0px;
+}
+#span3{
+    font-size: 60px;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+}
+#span4{
+    font-size: 20px;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* border-bottom-style: solid;
+    border-width: 4px;
+    border-color: inherit; */
+}
+#span5{
+    stroke-width: 10px;
+    stroke: #f7f7f9;
+    stroke-linecap: round;
+}
+
+#color3{
+    margin-top: 10px;
+    color: #cc313d;
+    background-color: #f7c5cc;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    border-radius: 10px;
+}
+#span6{
+    font-size: 40px;
+    font-weight: 900;
+    position: relative;
+    top: 140px;
+    /* vertical-align: middle; */
+    text-shadow: -5px 5px 3px #cc313d;
+}
+#span7{
+    stroke-width: 10px;
+    stroke: #cc313d;
+    stroke-linecap: round;
+    stroke-opacity: 0.3;
+    transform: translateY(150px);
+}
+
+#color4{
+    margin-top: 20px;
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    background-color: #013dc4;
+    color: #e2d3f4;
+    text-align: center;
+    font-family: dynapuff;
+}
+#span8{
+    position: relative;
+    top: 130px;
+}
+#span9{
+    font-size: 40px;
+    font-weight: 900;
+}
+#span10{
+    padding-top: 8px;
+    display: block;
+}
+
+#color5{
+    font-family: lobster;
+    margin-top: 20px;
+    border-radius: 15px;
+    width: 300px;
+    height: 300px;
+    color: #1eb381;
+    background-color: #210070;
+    text-align: center;
+}
+#span11{
+    position: relative;
+    top: 110px;
+}
+#span12{
+    font-size: 45px;
+    font-weight: 900;
+}
+#span13{
+    padding-top: 0px;
+    font-size: 45px;
+    font-weight: 900;
+    display: block;
+}
+
+#color6{
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 15px;
+    width: 300px;
+    height: 300px;
+    background-color: #1d1c1c;
+}
+#span14{
+    position: relative;
+    top: 50px;
+}
+#span15{
+    color: #e06410;
+    font-size: 90px;
+    font-weight: 900;
+    font-family: pacifico;
+}
+#span16{
+    transform: translateY(-40px);
+    /* bottom: 80px;  */
+    display: block;
+    padding-top: 8px;
+    color: white;
+    letter-spacing: 3px;
+    font-size: 40px;
+    font-weight: bold;
+}
+#span17{
+    transform: translateY(-40px);
+    display: block;
+    color: #e06410;
+    letter-spacing: 2px;
+    font-size: 22px;
+}
+
+#color7{
+    margin-top: 20px;
+    width: 300px;
+    height: 300px;
+    background-color: #5e057e;
+    color: #c299d0;
+    text-align: center;
+    border-radius: 15px;
+}
+#span18{
+    position: relative;
+    top: 100px;
+}
+#span19{
+    font-size: 90px;
+    font-weight: 900;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#span20{
+    transform: translateY(5px);
+    display: block;
+    letter-spacing: 3px;
+    word-spacing: 4px;
+}
+#color8{
+    margin-top: 20px;
+    border-radius: 15px;
+    width: 300px;
+    height: 300px;
+    background-color: #390879;
+    color: #b8df10;
+    text-align: center;
+}
+#span22{
+    position: relative;
+    top: 110px;
+}
+#span23{
+    font-family: albertsans;
+    font-size: 60px;
+    font-weight: bold;
+}
+#span24{
+    font-size: 20px;
+    font-weight: lighter;
+    display: block;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}

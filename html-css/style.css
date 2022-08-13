@@ -1,0 +1,576 @@
+/* p{
+    background-color:#124578;
+    color:#44ab12;
+    font-size:large;
+} */
+#px2{
+    background-color:#5478dd;
+    color:#5478aa;
+    font-size:large;
+}
+#title{
+    text-decoration: none;
+}
+#header{
+    font-weight: bolder;
+    font-size: xx-large;
+}
+#px3 , #px4 , #px5{
+    background-color:#aaaa45;
+    color:#5478ac;
+    font-size:large;
+}
+.par1{
+    background-color: #5478dd;
+    color:#aaaa45;
+    font: large;
+}
+#test0{
+    background-color:rgb(256, 100, 97);
+    width: 200px;
+    height: 200px;
+}
+/*a:alpha, opacity:0 to 1*/
+/*  */
+#test1{
+    background-color:rgba(256, 100, 97, 0.8);
+    width: 200px;
+    height: 200px;
+}
+#test2{
+    background-color:rgba(256, 100, 97,0.4);
+    width: 200px;
+    height: 200px;
+}
+/* h:hue ,s:saturation, l:lightness */
+#test3{
+    background-color:hsl(20, 100%, 50%);
+    width: 200px;
+    height: 200px;
+}
+#test4{
+    background-color:hsla(20, 80%, 70%, 0.9);
+    width: 200px;
+    height: 200px;
+}
+#test5{
+    background-color:hsla(20, 60%, 40%, 0.7);
+    width: 200px;
+    height: 200px;
+}
+#test6{
+    background-color:hsla(20, 40%, 20%, 0.4);
+    width: 200px;
+    height: 200px;
+}
+#italic{
+    font-style: italic;
+}
+#bold{
+    font-weight:bold;
+}
+#variant{
+    font-variant: small-caps;
+}
+#align{
+    text-align: center;
+}
+#table{
+    height:100px;
+}
+#top{
+   vertical-align: top; 
+}
+#center{
+    vertical-align: center;
+}
+#bottom{
+    vertical-align: bottom;
+}
+#link{
+    text-decoration:none;
+}
+#part0{
+    font-size: 20px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    text-indent: 8px;
+}
+#part1{
+    text-shadow: 3px 3px 1px #5478aa; 
+}
+#paragraph{
+    /* border-width: 4px;
+    border-color: #5478dd;
+    border-style: solid; */
+    /* border: 4px #5477dd dotted; */
+    border-top-width: 4px;
+    border-top-color: red;
+    border-top-style: ridge;
+    border-right-width: 3px;
+    border-right-color: #aaaa45;
+    border-right-style: groove;
+    border-left-width: 8px;
+    border-left-color: inset;
+    border-left-style: outset;
+    border-bottom-width: 5px;
+    border-bottom-color: orange;
+    border-bottom-style:solid;
+}
+/*dashed , dotted , double , solid hidden none groove ridge inset outset*/
+body{
+    /* background-image: url("/my_html_projects/media/1.jpg");
+    background-repeat: no-repeat ; */
+    background-position: top left; 
+    background-size: auto;
+    background-attachment: fixed;
+}
+/* no-repeat , repeat , repeat-x , repeat-y , space , round */
+.span1{
+    background-color: #f41201;
+}
+#span1{
+    display:none;
+}
+#span2{
+    display:block;
+}
+#span3{
+    display:inline;
+}
+#span4{
+    display:inline-block;
+}
+#span5{
+    visibility: hidden;
+}
+#span6{
+    visibility: visible;
+}
+#span7{
+    visibility: collapse;
+}
+#pse{
+    border: 4px solid transparent;
+    padding: 40px;
+    border-image-repeat: stretch;
+    border-image-source: url("media/border.png");
+    border-image-slice: 40%;
+    border-image-width: 20px;
+}
+.clips{
+    background-color: #111;
+    width: 200px;
+    height: 200px;
+}
+#oiu0{
+    box-shadow: 5px 4px #555;
+
+}
+#oiu1{
+    box-shadow: -4px -10px 10px #444;
+}
+#oiu2{
+    box-shadow: inset 7px 4px 8px #555;
+}
+#oiu3{
+    border-radius: 5px;
+}
+#oiu4{
+    border-radius: 40%;
+}
+#oiu5{
+    border-radius: 50%;
+}
+#oiu6{
+    border-top-right-radius: 20px 12px;
+    border-top-left-radius: 20px 12px;
+    border-bottom-right-radius: 20px 12px;
+    border-bottom-left-radius: 20px 12px;
+}
+#oiu7{
+    border-radius: 12px 20px 17px 13px / 8px 12px 15px 20px;
+}
+#oiu8{
+    box-shadow: 12px 8px 8px #444;
+}
+#oiu9{
+    border-radius: 5px;
+}
+#oiu10{
+    border-radius: 4px 12px;
+}
+#oiu11{
+    border-top-right-radius: 12px 8px;
+    border-top-left-radius: 15px 20px;
+    border-bottom-right-radius: 8px 20px;
+    border-bottom-left-radius: 30px 12px;
+}
+#oiu12{
+    border-radius: 12px 20px 30px 36px / 4px 15px 8px 4px ;
+}
+#oiu13{
+    border: 4px solid transparent;
+    padding: 80px;
+    border-image-source: url("media/border.png");
+    border-image-repeat: stretch;
+    border-image-slice: 20%;
+    border-image-width: 20px;
+}
+/* none repeat space round stretch */
+#imlk1{
+    border-top: 2px solid #111;
+    padding-top: 8px;
+    height: 200px;
+    width:200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #111;
+}
+#listop{
+    list-style-type: square;
+    list-style-position: inside;
+    list-style-image: url("/my_html_projects/media/list.png");
+}
+/* decimal , disc , decimal-leading-zero , square , circle , lower-(alpha , latin , greek , roman) upper-(alpha , latin , roman) , armenian , georgian */
+/* inside outside */
+/*  */
+#table2022 {
+    background-color: #666;
+    padding: 10px;
+    border-radius: 5px;
+    border-collapse: separate;
+    text-transform: capitalize;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 20px;
+    border-spacing: 10px 10px;
+    empty-cells: show;
+}
+.tr20{
+    border-bottom: #111 solid 2px;
+    padding: 5px;  
+}
+#tr20{
+    border-left: #111 solid 2px;
+}
+#name55{
+    background-color: gray;
+    color: aquamarine;
+    border-radius: 5px;
+    border: black solid 2px;
+}
+#name55:focus{
+    background-color: aqua;
+    color: #f41201;
+    border: 2px solid gray;
+}
+#name56{
+    background-color: gray;
+    color: #aaaa45;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+#name56:hover{
+        background:aqua;
+        color: #83f401;
+}
+.github:link{
+    color: #5478ac;
+    text-decoration: none;
+}
+.github:hover{
+    color: #f41201;
+}
+.github:active{
+    color: #aaaa45;
+}
+.github:visited{
+    color: blueviolet;
+}
+.github1:first-child{
+    color: #f41201;
+}
+.github1:last-child{
+    color: #f41201;
+}
+.github1:nth-child(3){
+    color: #f41201;
+}
+.github1:nth-child(6){
+    color: #f41201;
+}
+.gym{
+    cursor:pointer;
+}
+#y1{
+    width: 300px;
+    height: 300px;
+    background-color: chocolate;
+    left: 70px;
+    top: 40px;
+    position: static;
+}
+#y2{
+    width: 300px;
+    height: 300px;
+    background-color: #aaaa45;
+    left:20px;
+    top: 50px;
+    position: static;
+    z-index: 50;
+}
+#y3{
+    width: 150px;
+    height: 150px;
+    background-color: #a54a45;
+    left: 10px;
+    top: 20px;
+    position: sticky;
+    z-index: 51;
+}
+#y4{
+    width: 300px;
+    height: 300px;
+    background-color: #111;
+    position: absolute;
+    left: 80px;
+    margin-top: 80px;
+}
+/* z-index: just for  absolute relative fixed sticky*/
+#rty{
+    width: 200px;
+    height: 100px;
+    background-color: #666;
+    overflow: scroll;
+}    
+    /* overflow-wrap: break-word; */
+    /* word-break: keep-all; */
+.dov{
+    width: 300px;
+    height: 300px;
+}
+#dov1{
+    background-color: #aaaa45;
+    float: left;
+}
+#dov2{
+    background-color: #f41201;
+    float: left;
+}
+#dov3{
+    background-color: #666;
+    float: right;
+}
+#dov4{
+    background-color: aqua;
+    float: left;
+}
+#dov5{
+    width: 108px;
+    background-color: blueviolet;
+    float: left;
+
+}
+/* left right none inline-start inline-end  */
+/* selectors */
+/* #bahosh0 p{
+    background-color: #547588;
+} */
+/* #bahosh0 .io{
+    background-color: #f41201;
+} */
+/* #bahosh0 > p {
+    background-color: #a54a45;
+} */
+/* #bahosh0 + p{
+    background-color: #5478ac;
+} */
+#bahosh0 ~ p{
+    background-color: aqua;
+}
+#hyper::first-letter{
+    color: #a54a45;
+    font-size: large;
+}
+#hyper::first-line{
+    background-color: burlywood;
+}
+/* #hyper::before{
+    content: url("media/2.jpg");
+} */
+#hyper::after{
+    content:" this is just a test";
+}
+#hyper0::selection{
+    background-color: chartreuse;
+    color: chocolate;
+}
+#hyper1>li::marker{
+    color: #f41201;
+}
+#idip0:invalid {
+    background-color: red;
+    color:#fff;
+}   
+#idip1:valid {
+    background-color: green;
+    color:#fff;
+}
+#heart{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin: 150px;
+    position: relative;
+    transform: rotate(45deg);
+}
+#heart::after{
+    content: "";
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    right: 50px;
+}
+#heart::before{
+    content: "";
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: red;
+    bottom: 50px;
+}
+#heart,
+#heart::after,
+#heart::before{
+    animation-name: heart;
+    /* animation-duration: 2s;
+    animation-delay: 80ms; */
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+}
+@keyframes heart{
+    0%{width: 100px; height: 100px; background-color: rgb(255, 0, 0); box-shadow: 0px 0px 4px rgb(255, 0, 0);}
+    20%{width: 105px; height: 103px; background-color: rgb(225, 0, 0); box-shadow: 0px 0px 4px rgb(225, 0, 0);}
+    40%{width: 109px; height: 107px; background-color: rgb(190, 0, 0); box-shadow: 0px  0px 4px rgb(190, 0, 0);}
+    60%{width: 113px; height: 111px; background-color: rgb(155, 0, 0); box-shadow: 0px 0px 4px rgb(155, 0, 0);}
+    80%{width: 117px; height: 117px; background-color: rgb(130, 0, 0); box-shadow: 0px 0px 4px rgb(130, 0, 0);}
+    100%{width: 120px; height: 120px; background-color: rgb(100, 0, 0); box-shadow: 0px 0px 4px rgb(100, 0, 0);}
+}
+#jjj{
+    width: 100px;
+    height: 100px;
+    background-color: #f41201;
+    margin: 80px;
+}
+#jjj:hover{
+    transform: rotateX(50deg);
+    transform: rotateY(50deg);
+    transform: rotate(45deg);
+    transform: scaleX(2);
+    transform: scaleY(3);
+    transform: scale(2, 3);
+    transform: translateX(50px);
+    transform: translateY(20px);
+    transform: translate(50px , 20px);
+    transform: skewX(20deg);
+    transform: skewY(30deg);
+    transform: skew(20deg , 30deg);
+    /* transform: matrix(2 , -1 , 5, 6 , 0 , 6); */
+    /* transform: perspective(300px); */
+}
+/* transform: translate scale skew rotate matrix perspective */
+#jjk{
+    width: 200px;
+    height: 200px;
+    background-color: #f41201;
+    margin: 180px;
+    transition-property: width;
+    transition-duration: 2s;
+    transition-delay: 0.8ms;
+    transition-timing-function: ease-in-out;
+}
+/* ease, ease-in, ease-out, ease-in-out, linear, cubic-bezier */
+#jjk:hover{
+    width: 260px;
+    background-color: yellow;
+}
+#tit0{
+    width: 200px;
+    height: 300px;
+    background-color: transparent;
+    border: 8px solid currentcolor;
+    color: #aaaa45;
+    padding: 80px;
+}
+#tit1{
+    width: 100px;
+    height: 100px;
+    background-color: #5478ac;
+    border: inherit;
+    padding: 20px;
+    margin-top: 20px;
+}
+#hub0{
+    height: 100px;
+    width: 100px;
+    background-image: linear-gradient(to right , red 10%, yellow 40%, blue 50%);
+}
+#hub1{
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    background-image: radial-gradient(red 20%  , yellow 30% , blue 50%);
+    margin-bottom: 20px;
+}
+#hub2{
+    height: 100px;
+    width: 100px;
+    /* background-image: conic-gradient(from 45deg , red , yellow , blue); */
+    background-image: conic-gradient(at 20% 70% , red , yellow , blue);
+    margin-bottom: 20px;
+}
+#hub3{
+    height: 100px;
+    width: 100px;
+    background-image: repeating-conic-gradient(red 15deg , yellow 25deg , blue 35deg);
+}
+#hub4{
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    -webkit-box-reflect: below 0px linear-gradient(rgba(0 , 0 , 0 , 0) , rgba(0 , 0 , 0 , 0.7));
+    margin-bottom: 140px;
+}
+#hub5{
+    height: 200px;
+    width: 200px;
+    -webkit-box-reflect: below 0px linear-gradient(rgba(0 , 0 , 0 , 0) , rgba(0 , 0 , 0 , 0.7));
+    margin-bottom: 600px;
+}
+#hub6{
+    height: 200px;
+    width: 200px;
+    /* position: relative;
+    left: 0px; */
+    object-fit: cover;
+    /* object-position: left; */
+    object-position: 80% 100%;
+    /* padding-top: 100px;
+    padding-bottom: 280px; */
+}
+/* fill , contain , scale-down , cover , none */
+/* #hub7{
+    width: 300px;
+    height: 300px;
+    -webkit-mask-image: url("./media/brain.svg");
+    -webkit-mask-repeat:no-repeat;
+} */

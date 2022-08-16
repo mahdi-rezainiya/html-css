@@ -1,0 +1,324 @@
+@import "reset.css";
+@font-face {
+    font-family: "vazir";
+    src: url("/fonts/Vazirmatn-Regular.ttf") , format("ttf");
+}
+body{
+    direction: rtl;
+    font-family: "vazir";
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1170px;
+    /* background-color: red; */
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+.title{
+    width: 100%;
+    text-align: center;
+}
+.title h2{
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+/* header */
+header{
+    background-image: url("/images/Laptop-svg.svg");
+    background-size: 800px 450px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+    background-color: rgb(86, 86, 224);
+}
+header nav{
+    width: 100%;
+    height: 70px;
+    /* background-color: brown; */
+}
+header nav ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+header nav ul li{
+    line-height: 4;
+    margin: 0 15px;
+}
+header nav ul li a{
+    color: #fff;
+    font-size: 15px;
+}
+header .header-content{
+    width: 250px;
+    height: 100%;
+    /* background-color: brown; */
+    display: flex;
+    text-align: center;
+    color: #fff;
+    margin: auto;
+}
+header .header-content h1{
+
+    margin-top: -150px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 10px;
+}
+header .header-content p{
+    font-size: 20px;
+}
+/* about */
+.about{
+    width: 100%;
+    padding: 80Px 0;
+}
+.about .title p{
+    font-size: 20px;
+    margin: 15px;
+    color: rgb(71, 71, 71);
+}
+.about .about-content{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 50px;
+}
+.about .about-content .about-item{
+    width: calc(25% -15px);
+    flex: 0 0 calc(25%-15px);
+    padding: 0 20px;
+}
+.about .about-content .about-item img{
+    width: 100%;
+    height: 300px;
+}
+.about .about-content .about-item h2{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.about .about-content .about-item p{
+    font-size: 15px;
+    margin: 15px 0;
+    color: #333;
+}
+/* message */
+.message{
+    background-image: url("/images/laptop-pro.jpg");
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0;
+    position: relative;
+}
+.message .message-overlay{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.message .message-overlay .message-content{
+    width: 100%;
+    height: 100%;
+    margin-top: 200px;
+    color: #fff;
+    text-align: center;
+}
+.message .message-overlay .message-content h2{
+    font-size: 30px;
+}
+.message .message-overlay .message-content p{
+    font-size: 20px;
+    color: rgb(71, 71, 71);
+    margin: 15px 0;
+}
+/* services */
+.services{
+    width: 100%;
+    padding: 100px 0;
+}
+.services .services-item{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 100px;
+    /* background-color: red; */
+}
+.services .services-item .item{
+    flex: 0 0 calc(25%-15);
+    width: calc(25%-15);
+    /* background-color: blue; */
+}
+.services .services-item .item i{
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+.services .services-item .item h2{
+    font-size: 27px;
+    margin-bottom: 30px;
+}
+.services .services-item .item p{
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.services .services-item .item a{
+    font-size: 20px;
+    background-color: seagreen;
+    text-decoration: none;
+    padding: 7px 15px;
+    margin-top: 20px;
+    color: #fff;
+    border-radius: 5px;
+}
+/* work */
+.work{
+    width: 100%;
+}
+.work .title p{
+    font-size: 20px;
+}
+.work .work-content{
+    width: 1400px;
+    margin-top: 50px;
+}
+.work .work-content ul{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    transform: translateX(5%);
+}
+.work .work-content ul li{
+    margin-bottom: 10px;
+    position: relative;
+}
+.work .work-content ul li:hover span{
+    display: block;
+}
+.work .work-content ul li span{
+    display: none;
+    position: absolute;
+    top: 50%;
+    right: 45%;
+}
+.work .work-content ul li div{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+.work .work-content ul li:hover div{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+/* contact */
+.contact{
+    width: 100%;
+}
+.contact form{
+    padding-top: 50px;
+    /* margin-top: 30px; */
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.contact .title p{
+    margin-top: 10px;
+    font-size: 20px;
+}
+input, textarea, button{
+    font-family: "vazir";
+    outline: none;
+}
+.contact form input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border: 1px solid rgb(194, 194, 194);
+}
+.contact form input:focus{
+    outline: 2px solid rgb(108, 138, 228);
+}
+.contact form textarea:focus{
+    outline: 2px solid rgb(108, 138, 228);
+}
+.contact form textarea{
+    width: 100%;
+    padding: 10px;
+    height: 100px;
+    resize: none;
+    border: none;
+    border: 1px solid rgb(194, 194, 194);
+}
+.contact form input[type=submit]{
+    width: 50%;
+    background-color: royalblue;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s all ease-in-out;
+    -o-transition: 0.3s all ease-in-out;
+    -moz-transition: 0.3s all ease-in-out;
+    -webkit-transition: 0.3s all ease-in-out;
+}
+.contact form input[type=submit]:hover{
+    background-color: rgb(18, 60, 185);
+}
+.contact .social{
+    margin-top: 50px;
+}
+.contact .social p{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.contact .social ul{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.contact .social ul li{
+    margin: 0 10px;
+}
+.contact .social ul li a{
+    color: #fff;
+}
+.contact .social ul li a i{
+    background-color: royalblue;
+    font-size: 35px;
+    border-radius: 50%;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+.contact .social ul li a i:hover{
+    background-color: black;
+}
+/* footer */
+footer{
+    background-color: rgba(31, 31, 31 , 0.4);
+    padding: 40px;
+    text-align: center;
+    margin-top: 50px;
+}
+footer h3{
+    font-size: 25px;
+    color: #fff;
+}

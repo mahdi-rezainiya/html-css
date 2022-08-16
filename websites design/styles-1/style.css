@@ -1,0 +1,244 @@
+@font-face {
+    font-family: vazir;
+    src: url("/fonts/Vazirmatn-Regular.ttf") , format("ttf");
+}
+body,ul,li,h2,p{
+    direction: rtl;
+    font-family: "vazir";
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: url("/images/pnas.2024425118unfig01.jpg");
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.container{
+    width: 800px;
+    margin: auto;
+}
+header nav{
+    width: 100%;
+    background-color: rgba(0 , 0 , 0 , 0.4);
+    height: 70px;
+}
+header nav ul{
+    width: 100%;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+header nav ul li{
+    margin-left: 25px;
+    border-left: 1px solid rgba(189, 183, 183, 0.8);
+    padding-left: 15px;
+}
+header nav ul li:nth-child(4){
+    border: none;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    line-height: 4;
+    font-size: 18px;
+}
+header .header-content{
+    position: absolute;
+    top: 35%;
+    left: calc(100%/2.5);
+    text-align: center;
+}
+header .header-content h2{
+    font-size: 60px;
+    color: #ffffff;
+}
+header .header-content p{
+    font-size: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+}
+/* services */
+#service {
+    width: 100%;
+    background-color: rgb(218, 216, 216);
+    padding: 100px 0;
+}
+#service .service-title {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid rgb(187, 187, 187);
+    padding-bottom: 50px;
+    margin-bottom: 40px;
+}
+#service .service-title h2{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+#service .service-title p{
+    width: auto;
+    margin-top: 20px;
+    margin: auto;
+    font-size: 20px;
+}
+#service .service-title p span{
+    color: seagreen;
+}
+#service .service-content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: blue; */
+}
+#service .service-content .service-content-item{
+    /* background-color: red; */
+    width: calc(33.33% -20px);
+    margin-top: 30px;
+    text-align: center;
+    margin-left: 25px;
+}
+#service .service-content .service-content-item i{
+    font-size: 30px;
+    color: rgb(141, 137, 137);
+}
+#service .service-content .service-content-item h2{
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 30px;
+    color: rgb(87, 87, 87);
+}
+#service .service-content .service-content-item p{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#service .service-content .service-content-item a{
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(61, 88, 19);
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+}
+#service .service-content .service-content-item a:hover{
+    background-color: rgb(40, 61, 7);
+}
+/* blog */
+#blog{
+    width: 100%;
+    padding: 100px 0;
+}
+#blog .title{
+    text-align: center;
+}
+#blog .title h2{
+    font-size: 28px;
+}
+#blog .blog{
+    transform: translateX(180px);
+    width: 1060px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 70px auto;
+    /* background-color: blue; */
+    justify-content: space-between;
+}
+#blog .blog .blog-item{
+    flex: 1 0 calc(50%-20px);
+    width: calc(50%-10px);
+    text-align: center;
+    /* background-color: red; */
+    margin-bottom: 20px;
+}
+#blog .blog .blog-item h3{
+    font-size: 22px;
+    color: rgb(58, 57, 57);
+}
+#blog .blog .blog-item img{
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+}
+#blog .blog .blog-item p{
+    width: 500px;
+    margin: auto;
+    color: rgb(136, 136, 133);
+}
+/* message */
+#message{
+    background-image: url("/images/death-valley-4257280__340.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+    background-attachment: fixed;
+    position: relative;
+}
+#message .overlay{
+    position: absolute;
+    background-color: rgba(0 , 0 , 0 , 0.4);
+    right: 0;
+    bottom: 0;
+    left: 0;
+    top: 0;
+}
+#message .overlay p{
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    /* margin-top: 120px; */
+    width: 900px;
+    margin: 120px auto;
+}
+/* footer */
+footer{
+    width: 100%;
+    background-color: #2c2b2b;
+    padding: 80px;
+}
+footer .footer-title{
+    width: 75%;
+    text-align: center;
+}
+footer .footer-title h2{
+    color: #fff;
+    margin-bottom: 10px;
+}
+footer .footer-title p{
+    color: #f5f5f5;
+}
+footer .footer-social{
+    display: flex;
+    margin-top: 40px;
+    padding-bottom: 40px;
+}
+footer .footer-social ul{
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    list-style: none
+}
+footer .footer-social ul li{
+    margin: 0 10px;
+}
+footer .footer-social ul li a i{
+    color: rgb(109, 107, 107);
+    font-size: 30px;
+    transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+}
+footer .footer-social ul li a i:hover{
+    color: #fff;
+}
+footer .copy-right{
+    color: #fff;
+    padding: 50px 0 0 0;
+    width: 75%;
+    text-align: center;
+    border-top: 1px solid rgb(37, 35, 35);
+}

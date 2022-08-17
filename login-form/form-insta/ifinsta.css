@@ -1,0 +1,110 @@
+@font-face {
+    font-family: "vegan";
+    src: url("font/VeganStylePersonalUse-5Y58.ttf");
+}
+body{
+    width: 100%;
+    height: 10px;
+    background-color: rgb(214, 214, 213);
+}
+.container{
+    position: static;
+    width: 340px;
+    height: 200px;
+    margin: auto;
+}
+.first h2{
+    font-family: "vegan";
+}
+.first{
+    margin-top: 15%;
+    position: relative;
+    display: block;
+}
+.first .title-content{
+    position: relative;
+    background-color: #fff;
+    display: block;
+    height: 340px;
+    text-align: center;
+}
+.first .title-content h2{
+    letter-spacing: 2px;
+    margin: 40px 0 20px;
+    font-size: 30px;
+}
+.first .title-content input{
+    padding: 3px 0 3px 2px;
+    margin: 0 0 15px;
+    width: 75%;
+    font-size: 13px;
+    background-color: rgb(214, 214, 213);
+    border: none;
+    border: 1px solid rgb(146, 146, 145);
+    border-radius: 3px;
+}
+.first .title-content button{
+    background-color: rgb(36, 116, 221);
+    width: 76%;
+    display: block;
+    margin: auto;
+    font-size: 18px;
+    padding: 4px 0;
+    color: white;
+    border: none;
+}
+.first .title-content .or{
+    margin: auto;
+    width: 68%;
+    margin-top: 15px;
+}
+.first .title-content .or fieldset{
+    border: none;
+    border-top:1px solid  rgb(146, 146, 145) ;
+}
+.first .title-content .or fieldset legend{
+    padding: 0 10px;
+    font-size: 16px;
+    color: rgb(119, 119, 118);
+}
+/* main-content */
+.first .main-content{
+    transform: translateY(-120px);
+    /* background-color: blue; */
+    text-align: center;
+}
+.first .main-content p{
+    display: flex;
+    word-spacing: 5px;
+}
+.first .main-content #first-content{
+    text-decoration: none;
+    color: rgb(46, 46, 172);
+}
+.first .main-content #second-content{
+    color: rgb(46, 46, 172);
+    text-decoration: none;
+    
+}
+.first .main-content #second-content h4{
+    transform: translateY(-30px);
+}
+/* footer */
+footer{
+    width: 100%;
+}
+footer .footer-content{
+    height: 60px;
+    line-height: 55px;
+    margin-top: 150px;
+    background-color: #fff;
+    text-align: center;
+}
+footer .footer-content h3{
+    font-weight: 400;
+    font-size: 20px;
+}
+footer .footer-content h3 a{
+    text-decoration: none;
+    color: rgb(36, 101, 199);
+}

@@ -1,0 +1,117 @@
+* ,
+*::before ,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.fan {
+    /* background-color: cadetblue; */
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+label {
+    display: block;
+    height: 20px;
+    width: 20px;
+    /* background-color: black; */
+    position: absolute;
+    margin: 120px auto 0 auto;
+    left: 0;
+    right: 0;
+    border-radius: 50%;
+    animation: spin 1s infinite linear;
+    animation-play-state: paused;
+}
+@keyframes spin {
+    100%{
+        transform: rotate(360deg);
+    }
+}
+label::after {
+    content: "";
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    background-color: #005fe4;
+    border-radius: 50%;
+    left: -25px;
+    bottom: -25px;
+}
+label span {
+    display: block;
+    height: 120px;
+    width: 70px;
+    background-color: #fdbf00;
+    border-radius: 50% 45% 100% 0% / 39% 28% 72% 61%;
+    position: absolute;
+    z-index: -1;
+}
+span:nth-child(1){
+    transform: rotate(0deg);
+    bottom: 20px;
+    left: 10px;
+}
+span:nth-child(2){
+    transform: rotate(-90deg);
+    left: -95px;
+    top: -70px;
+}
+span:nth-child(3){
+
+    transform: rotate(-180deg);
+    top: 30px;
+    left: -50px;
+}
+span:nth-child(4){
+    transform: rotate(-270deg);
+    left: 45px;
+    top: -15px;
+}
+.base {
+    height: 160px;
+    width: 20px;
+    background-color: #00317e;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 140px;
+    z-index: -1;
+}
+.base::after{
+    content: "";
+    position: absolute;
+    height: 35px;
+    width: 150px;
+    background-color: #fdbf00;
+    left: -65px;
+    top: 160px;
+    border-radius: 20px 20px 0 0;
+}
+input[type="checkbox"]{
+    position: absolute;
+    -webkit-appearance: none;
+    appearance: none;
+    height: 12px;
+    width: 20px;
+    background-color: #c30010;
+    position: absolute;
+    bottom: 50px;
+    left: 130px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px 5px 0 0;
+}
+input[type="checkbox"]:checked{
+    height: 8px;
+}
+input[type="checkbox"]:checked + label {
+    animation-play-state: running;
+}

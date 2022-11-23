@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+    position: relative;
+    display: flex ;
+    justify-content: center;
+    top: 60px;
+}
+.circle{
+    top: 100px;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: #e7b324;
+    border-radius: 50%;
+    box-shadow:
+    0 0 10px #e7b324 ,
+    0 0 40px #e7b324 ,
+    0 0 80px #e7b324 ;
+}
+.circle::after{
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(17, 15, 15);
+    border-radius: 50%;
+    animation-name: line;
+    animation-duration: 5s;
+    animation-timing-function: cubic-bezier(0,.98,1,0);
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+}
+@keyframes line {
+    0%{
+        transform:
+        translateX(150px) 
+        translateY(-150px);
+    }
+    100%{
+        transform: 
+        translateX(-150px)
+        translateY(150px);
+    }
+}

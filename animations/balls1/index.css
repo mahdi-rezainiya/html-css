@@ -10,7 +10,6 @@
     height: 58px;
     width: 2px;
     margin-top: -46px;
-    /* background-color: transparent; */
     background-color: gray;
     animation: animate 2s linear infinite;
 }

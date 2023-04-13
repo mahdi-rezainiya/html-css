@@ -1,0 +1,86 @@
+@font-face {
+    font-family:'B-nazanin';
+    src: url('fonts/B-NAZANIN.TTF');
+}
+@font-face {
+    font-family:'B-zar-bold';
+    src: url('fonts/B\ Zar\ Bold_0.ttf');
+}
+@font-face {
+    font-family:'B-zar';
+    src: url('fonts/B\ Zar_0.ttf');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+    background-color: orchid;
+}
+nav{
+    width: 100%;
+    height: 70px;
+    background-color: #63b3ac;
+    color: #fff;
+    cursor: pointer;
+}
+.container{
+    width: 1200px;
+    height: 100%;
+    margin: auto;
+    /* background-color: blue; */
+    display: flex;
+}
+.nav-left{
+    width: 180px;
+    display: flex;
+    align-items: center;
+    padding-left: 16px;
+}
+.nav-left h1{
+    margin-right: 2px;
+}
+.nav-right{
+    margin: 0 0 0 auto;
+    text-align: center;
+    align-items: center;
+    width:850px;
+    display: flex;
+    /* background-color: pink; */
+    font-weight: 700;
+}
+.nav-right a{
+    margin: 0 auto 0 10px;
+    text-align: center;
+    align-content: center;
+    min-width: 60px;
+    padding: 0 8px 0 8px;
+    height: 30px;
+    background-color: red;
+    border-radius: 15px;
+    line-height: 30px;
+    color: #fff;
+    text-decoration: none;
+}
+.nav-right a:nth-of-type(1){
+    background-color: #457a76;
+    box-shadow: 0px 2px 3px #274442 ,
+    2px 0px 3px #274442 ,
+    -2px 0px 3px #272727 ,
+    0px -2px 3px #272727;
+}
+.nav-right a:nth-of-type(8){
+    background-image: url('pictures/search\ icon.svg');
+    background-position: center;
+    fill: #fff;
+    /* color: #fff */
+    /* stroke: #fff; */
+    /* background-color: #fff; */
+    /* stroke-linecap: #fff; */
+    /* -webkit-text-stroke-color: #fff; */
+    background-repeat: no-repeat;
+    /* background-size: auto; */
+
+}

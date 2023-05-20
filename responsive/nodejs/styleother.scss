@@ -1,0 +1,170 @@
+$myFont: Helvetica, sans-serif;
+$myColor: red;
+$myFontSize: 18px;
+$myWidth: 680px;
+
+body{
+    font-family: $myFont;
+    font-size: $myFontSize;
+    color: $myColor;
+}
+#container{
+    width: $myWidth;
+}
+// !global
+$myColor: red;
+
+h1 {
+    $myColor: green !global;
+    color: $myColor;
+}
+
+p {
+    color: $myColor;
+}
+// nesting
+nav {
+    ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    }
+    li {
+    display: inline-block;
+    }
+    a {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+    }
+}
+
+.bordered{
+    font: {
+        family: Helvetica, sans-serif;
+        size: 18px;
+        weight: bold;
+    }
+    
+    text: {
+        align: center;
+        transform: lowercase;
+        overflow: hidden;
+    }
+}
+
+// import
+// @import "reset.scss" ;
+
+// @import "colors"
+
+// mixing
+
+// @mixin
+// @include 
+
+@mixin important-text {
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+    border: 1px solid blue;
+    }
+
+.danger {
+    @include important-text;
+    background-color: green;
+    }
+
+@mixin special-text {
+    @include important-text;
+    @include link;
+    @include special-border;
+}
+
+// /* Define mixin with two arguments */
+@mixin bordered($color, $width) {
+    border: $width solid $color;
+}
+
+.myArticle {
+    @include bordered(blue, 1px);  // Call mixin with two values
+}
+
+.myNotes {
+    @include bordered(red, 2px); // Call mixin with two values
+}
+
+@mixin bordered($color: blue, $width: 1px) {
+    border: $width solid $color;
+}.myTips {
+    @include bordered($color: orange);
+}
+
+@mixin transform($property) {
+    -webkit-transform: $property;
+    -ms-transform: $property;
+    transform: $property;
+}
+.myBox {
+    @include transform(rotate(20deg));
+}
+// // @extend
+
+.button-basic  {
+    border: none;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button-report  {
+    @extend .button-basic;
+    background-color: red;
+}
+
+.button-submit  {
+    @extend .button-basic;
+    background-color: green;
+    color: white;
+}
+
+// string function
+
+// h1::after{
+//     content: quote(Hello world);
+//     content: str-index("Hello world!", "H");
+//     content: str-insert("Hello world!", " wonderful", 6);
+//     content: str-length("Hello world!");
+//     content: str-slice("Hello world!", 2, 5);
+//     content: to-lower-case("Hello World!");
+//     content: to-upper-case("Hello World!");
+//     content: unique-id();
+//     content: unquote("Hello world!");
+// }
+
+// numeric function
+
+// abs(15);
+// abs(-15);
+// ceil(15.20);
+// comparable(15px, 10px);
+// comparable(20mm, 1cm);
+// comparable(35px, 2em);
+// floor(15.80);
+// max(5, 7, 9, 0, -3, -7);
+// min(5, 7, 9, 0, -3, -7);
+// percentage(1.2);
+// random();
+// random(6);
+// round(15.20);
+// round(15.80);
+
+$str-index("hello","h"); //Sass returns 1
+
+
+
+
+
+
+

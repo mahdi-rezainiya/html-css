@@ -1,0 +1,35 @@
+@import url('stand.css');
+body{
+    height: 100vh;
+    background-color: #000;
+    overflow: hidden;
+    position: relative;
+    z-index: 4;
+}
+.resposive{
+    width: 50vw;
+    margin: 50px auto 0 auto;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background-color: #cec9c9;
+    width: 300px;
+    height: 450px;
+    border-radius: 5px;
+    /* position: relative; */
+}
+.top{
+    background-color: aqua;
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: -5;
+    transform: translateY(-100px);
+}
+.bottom{
+    /* position: absolute; */
+}
+
